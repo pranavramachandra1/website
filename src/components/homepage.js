@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Home() {
+export const Homepage = () => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className="portfolio-home">
       <div className="profile-section">
@@ -99,19 +101,42 @@ function Home() {
               <div className="duration">Jan 2023 - Aug 2024</div>
             </div>
           </div>
-          <div className="timeline-item">
-            <span className="timeline-icon">
-              <img 
-                src="https://media.licdn.com/dms/image/v2/C560BAQFIzPIYfEdWdw/company-logo_100_100/company-logo_100_100/0/1630597725146/chevron_logo?e=1753920000&v=beta&t=iBDqKd3hEBB-VyRy6To3b7jYaEHzNHl51FMaH9yfSTE"
-                alt="Tesla Logo" 
-                style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
-              />
-            </span>
-            <div className="timeline-content">
-              <div className="role">Chevron | Process Engineering Intern</div>
-              <div className="duration">May 2022 - Aug 2022</div>
-            </div>
-          </div>
+          {showMore && (
+            <>
+                <div className="timeline-item">
+                    <span className="timeline-icon">
+                    <img 
+                        src="https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=1753920000&v=beta&t=4KiP83VrTst7My0njbum7Q502qv9L8fQZFNMh5y7y8U"
+                        alt="AWS Logo" 
+                        style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
+                    />
+                    </span>
+                    <div className="timeline-content">
+                    <div className="role">AWS | Contract Software Developer</div>
+                    <div className="duration">Sep 2022 - Mar 2023</div>
+                    </div>
+                </div>
+              <div className="timeline-item">
+                <span className="timeline-icon">
+                  <img 
+                    src="https://media.licdn.com/dms/image/v2/C560BAQFIzPIYfEdWdw/company-logo_100_100/company-logo_100_100/0/1630597725146/chevron_logo?e=1753920000&v=beta&t=iBDqKd3hEBB-VyRy6To3b7jYaEHzNHl51FMaH9yfSTE"
+                    alt="Chevron Logo" 
+                    style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
+                  />
+                </span>
+                <div className="timeline-content">
+                  <div className="role">Chevron | Process Engineering Intern</div>
+                  <div className="duration">May 2022 - Aug 2022</div>
+                </div>
+              </div>
+            </>
+          )}
+          <button 
+            onClick={() => setShowMore(!showMore)}
+            className="show-more-button"
+          >
+            {showMore ? 'Show Less' : 'Show More'}
+          </button>
         </div>
       </div>
       <div className="education-section">
@@ -243,9 +268,25 @@ function Home() {
             padding: 16px 4vw;
           }
         }
+        .show-more-button {
+          background: none;
+          border: none;
+          color: #4b5c6b;
+          font-size: 0.95rem;
+          font-weight: 500;
+          padding: 8px 16px;
+          margin-top: 12px;
+          cursor: pointer;
+          transition: color 0.18s;
+          display: block;
+          margin-left: 36px;
+        }
+        .show-more-button:hover {
+          color: #181c22;
+        }
       `}</style>
     </div>
   );
 }
 
-export default Home;
+export default Homepage;
