@@ -13,7 +13,7 @@ function Home() {
         <div className="subtitle">Software Engineer</div>
         <div className="location">New York, NY</div>
         <p className="bio">
-          Currently a recent grad from UC Berkeley, working as a data engineer at Spotify, working on the personalization team. My background is in chemical engineering, and I have found myself interested in distributed systems, ML, and full stack projects. 
+          Currently a recent grad from UC Berkeley, working as a software engineer at Spotify. Specifically, I will be a data engineer on the personalization team. My background is in chemical engineering, and I have found myself interested in distributed systems, ML, and full stack projects. 
         </p>
 
         <p className="bio">
@@ -43,7 +43,7 @@ function Home() {
               />
             </span>
             <div className="timeline-content">
-              <div className="role">Spotify | Incoming Data Engineer</div>
+              <div className="role">Spotify | Incoming Software Engineer</div>
               <div className="duration">May 2025 - Present</div>
             </div>
           </div>
