@@ -1,0 +1,48 @@
+/* components/projects.css */
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .projects-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .project-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .project-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .project-item h2 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .project-item p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+  }
