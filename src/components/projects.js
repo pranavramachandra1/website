@@ -13,13 +13,19 @@ function Projects() {
       
       <div className="project-list">
         <div className="project-item">
+          <Link to="/projects/how-to-actually-get-good-at-dynamic-programming-problems" className="project-link">
+            <h2>How to Actually Get Good at Dynamic Programming Problems</h2>
+            <p>An overview on how to get over the hump of understanding DP problems</p>
+          </Link>
+        </div>
+        
+        <div className="project-item">
           <Link to="/projects/squat_buddy" className="project-link">
             <h2>squat_buddy</h2>
             <p>Python application that gives you biomechanical feedback on your squatting form</p>
           </Link>
         </div>
         
-        {/* Add more projects here as you create them */}
       </div>
     </div>
   )

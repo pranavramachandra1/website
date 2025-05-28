@@ -7,6 +7,7 @@ import Contact from "./components/contact"
 import Projects from "./components/projects"
 import Resume from "./components/resume"
 import SquatBuddy from './components/project_files/squat_buddy';
+import DPPost from './components/project_files/dp_post';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects/squat_buddy" element={<SquatBuddy />} />
+        <Route path="/projects/how-to-actually-get-good-at-dynamic-programming-problems" element={<DPPost />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={
           <div>
