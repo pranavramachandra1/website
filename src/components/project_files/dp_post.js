@@ -11,7 +11,7 @@ function DPPost() {
             
             <header className="project-header">
                 <h1>How to Actually Get Good at Dynamic Programming Problems</h1>
-                <p className="subtitle">A comprehensive guide to mastering dynamic programming through structured learning</p>
+                <p className="subtitle">An overview on how to get over the hump of understanding DP problems</p>
             </header>
 
             <div className="project-content">
@@ -59,7 +59,7 @@ function DPPost() {
                         <li><strong>Number of Times (Counting)</strong></li>
                         <li><strong>String DP</strong> (e.g. Longest Common Subsequence)</li>
                         <li><strong>Decision Making</strong> (e.g. House Robber)</li>
-                        <li><strong>Interval DP</strong></li>
+                        <li><strong>Interval DP</strong> (e.g. Trapping Rain Water)</li>
                     </ul>
                 </section>
 
@@ -78,6 +78,7 @@ function DPPost() {
                         </li>
                         <li>
                             <strong>Weird problems:</strong> <a href="https://leetcode.com/problems/target-sum/" target="_blank" rel="noopener noreferrer">Target Sum</a> and any stock-related problem
+                            <p>These make you think of weird ways to come up with the solution and how to represent the decision tree. Kinda mind bending, but still great practice.</p>
                         </li>
                     </ul>
                 </section>
