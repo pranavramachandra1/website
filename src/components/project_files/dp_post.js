@@ -20,7 +20,7 @@ function DPPost() {
                         I can't tell you how many times I have tried cracking the Neetcode Blind 75 dynamic programming section, gone through the solutions, and have still been unable to understand how to solve dynamic programming questions. I've read through countless reddit posts, forums, and have almost tried searching for algorithms courses to try to kickstart for the nth time my DP learning strategy.
                     </p>
                     <p>
-                        Oftentimes I find the the conventionally available resources, i.e. the <a href="https://neetcode.io/practice?tab=blind75" target="_blank" rel="noopener noreferrer">Neetcode blind 75</a>, doesn't provide enough nuance for each question for you to be able to actually learn to solve DP. The issue that I have seen for DP questions is that people often talk at a very high level the "structure of a DP question," and then proceed to formulate the solution, almost like it's magic. I feel myself following one of those meme-drawing tutorials.
+                        Oftentimes I find the conventionally available resources, i.e. the <a href="https://neetcode.io/practice?tab=blind75" target="_blank" rel="noopener noreferrer">Neetcode blind 75</a>, doesn't provide enough nuance for each question for you to be able to actually learn to solve DP. The issue that I have seen for DP questions is that people often talk at a very high level the "structure of a DP question," and then proceed to formulate the solution, almost like it's magic. I feel myself following one of those meme-drawing tutorials.
                     </p>
                     <img 
                         src="https://img-9gag-fun.9cache.com/photo/abbRYwv_460s.jpg" 
