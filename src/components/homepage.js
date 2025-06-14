@@ -15,7 +15,7 @@ export const Homepage = () => {
         <div className="subtitle">Software Engineer</div>
         <div className="location">New York, NY</div>
         <p className="bio">
-          UC Berkeley alum, working as a software engineer at Spotify. Specifically, I will be a data engineer on the personalization team. My background is in chemical engineering, and I have found myself interested in distributed systems, ML, and full stack projects. 
+          UC Berkeley alum, working as an engineer at Spotify. Specifically, I will be a data engineer on the personalization team. My background is in chemical engineering, and I have found myself interested in distributed systems, ML, and full stack projects. 
         </p>
 
         <p className="bio">
@@ -45,7 +45,7 @@ export const Homepage = () => {
               />
             </span>
             <div className="timeline-content">
-              <div className="role">Spotify | Incoming Software Engineer</div>
+              <div className="role">Spotify | Incoming Data Engineer</div>
               <div className="duration">May 2025 - Present</div>
             </div>
           </div>
