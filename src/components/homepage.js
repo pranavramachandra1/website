@@ -15,15 +15,9 @@ export const Homepage = () => {
         <div className="subtitle">Software Engineer</div>
         <div className="location">New York, NY</div>
         <p className="bio">
-          UC Berkeley alum, working as an engineer at Spotify. Specifically, I will be a data engineer on the personalization team. My background is in chemical engineering, and I have found myself interested in distributed systems, ML, and full stack projects. 
+          UC Berkeley alum, working as an engineer at Spotify. Specifically, I'm a data engineer on the personalization team. My background is in chemical engineering, and I have found myself interested in distributed systems, ML, and full stack projects. 
         </p>
 
-        <p className="bio">
-          Always happy to chat! Feel free to reach me at:
-        </p>
-        <p className="bio">
-          pranavramachandra [at] berkeley.edu
-        </p>
         <div className="social-links">
           <a href="https://www.linkedin.com/in/pranavramachandra/" className="social-link" target="_blank" rel="noopener noreferrer">
             <span role="img" aria-label="LinkedIn" className="icon">💼</span> LinkedIn
@@ -45,8 +39,8 @@ export const Homepage = () => {
               />
             </span>
             <div className="timeline-content">
-              <div className="role">Spotify | Incoming Data Engineer</div>
-              <div className="duration">May 2025 - Present</div>
+              <div className="role">Spotify | Data Engineer</div>
+              <div className="duration">June 2025 - Present</div>
             </div>
           </div>
           <div className="timeline-item">
