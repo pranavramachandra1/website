@@ -33,7 +33,7 @@ export const Homepage = () => {
           <div className="timeline-item">
             <span className="timeline-icon">
               <img 
-                src="https://media.licdn.com/dms/image/v2/C560BAQFkDzx_7dqq3A/company-logo_100_100/company-logo_100_100/0/1631377935713?e=1753920000&v=beta&t=dDAnTmukRufv1jb106UQETWVMTJECO1iB2VleNDzARY" 
+                src="/companies_logos/spotify_logo.jpeg" 
                 alt="Spotify Logo" 
                 style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
               />
@@ -46,7 +46,7 @@ export const Homepage = () => {
           <div className="timeline-item">
             <span className="timeline-icon">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D560BAQEuoRzwox4xdQ/company-logo_100_100/company-logo_100_100/0/1728253824329?e=1753920000&v=beta&t=1Mu9t_QzsM14GY464QUuKLpJiO8Xh5YJ7z80lA7cG30" 
+                src="/companies_logos/bicameral_logo.jpeg" 
                 alt="Bicameral Logo" 
                 style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
               />
@@ -59,7 +59,7 @@ export const Homepage = () => {
           <div className="timeline-item">
             <span className="timeline-icon">
               <img 
-                src="https://media.licdn.com/dms/image/v2/C560BAQHRNkb48rukMQ/company-logo_100_100/company-logo_100_100/0/1630662793533/quantumscape_logo?e=1753920000&v=beta&t=vJJs_7_WYXTA9bvsiubz4DUI74DQfudONZYGd2JeQqs" 
+                src="/companies_logos/quantumscape_logo.jpeg" 
                 alt="QuantumScape Logo" 
                 style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
               />
@@ -72,7 +72,7 @@ export const Homepage = () => {
           <div className="timeline-item">
             <span className="timeline-icon">
               <img 
-                src="https://media.licdn.com/dms/image/v2/C4E0BAQFfc1NOEp9DgA/company-logo_100_100/company-logo_100_100/0/1640018826417/lawrence_berkeley_national_laboratory_logo?e=1753920000&v=beta&t=nr-K4TM2qRFk0QdxR0Fw3BHEMrFKtSVAvhsyYcMh6PI" 
+                src="/companies_logos/lawrence_berkeley_national_laboratory_logo.jpeg" 
                 alt="Lawrence Berkeley National Lab Logo" 
                 style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
               />
@@ -85,7 +85,7 @@ export const Homepage = () => {
           <div className="timeline-item">
             <span className="timeline-icon">
               <img 
-                src="https://media.licdn.com/dms/image/v2/C4D0BAQHUcu98SZ2TVw/company-logo_100_100/company-logo_100_100/0/1630576446368/tesla_motors_logo?e=1753920000&v=beta&t=wvmVVO_DvZZpBm3flY2t-6ey9h8ieiSt1wvsktpW5yg" 
+                src="/companies_logos/tesla_motors_logo.jpeg" 
                 alt="Tesla Logo" 
                 style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
               />
@@ -100,7 +100,7 @@ export const Homepage = () => {
                 <div className="timeline-item">
                     <span className="timeline-icon">
                     <img 
-                        src="https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=1753920000&v=beta&t=4KiP83VrTst7My0njbum7Q502qv9L8fQZFNMh5y7y8U"
+                        src="/companies_logos/amazon_web_services_logo.jpeg"
                         alt="AWS Logo" 
                         style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
                     />
@@ -113,7 +113,7 @@ export const Homepage = () => {
               <div className="timeline-item">
                 <span className="timeline-icon">
                   <img 
-                    src="https://media.licdn.com/dms/image/v2/C560BAQFIzPIYfEdWdw/company-logo_100_100/company-logo_100_100/0/1630597725146/chevron_logo?e=1753920000&v=beta&t=iBDqKd3hEBB-VyRy6To3b7jYaEHzNHl51FMaH9yfSTE"
+                    src="/companies_logos/chevron_logo.jpeg"
                     alt="Chevron Logo" 
                     style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
                   />
@@ -139,8 +139,8 @@ export const Homepage = () => {
           <div className="timeline-item">
           <span className="timeline-icon">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1753920000&v=beta&t=WFK7bdpatAIOHO9hcgxhsAD1yZfAVdYndAEVPJPrb0s"
-                alt="Tesla Logo" 
+                src="/companies_logos/uc_berkeley_logo.jpeg"
+                alt="UC Berkeley Logo" 
                 style={{ width: '28px', height: '28px', borderRadius: '6px', objectFit: 'cover', boxShadow: '0 1px 4px rgba(60,60,60,0.08)' }}
               />
             </span>
